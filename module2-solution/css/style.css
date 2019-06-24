@@ -2,3 +2,73 @@
   box-sizing: border-box;
   margin: 0;
 }
+.div1{
+  float:left;
+  clear: left;
+}
+
+.div3{
+  clear: right;
+}
+
+div{
+  display: inline-block;
+  background-color: grey;
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+p{
+  margin: auto;
+  float: left;
+  padding: 1%;
+}
+
+#chicken{
+  background-color: #d59898;
+}
+
+#beef{
+  background-color: #e5d198;
+}
+
+#mutton{
+  background-color: #c14543;
+}
+
+section{
+  float: right;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 2px 20px 2px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+
+@media screen and (min-width: 992px) {
+/* Desktop view */
+div{
+  width: 30%;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+/* Tablet view */
+div{
+  width: 48%;
+  margin: 1%;
+}
+.div3{
+  width: 98%;
+  margin: 1%;
+}
+}
+
+@media screen and (max-width: 767px) {
+/* Mobile view*/
+div{
+  width: 94%;
+  margin: 3%;
+}
+}
