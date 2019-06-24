@@ -18,10 +18,17 @@ div{
   margin-left: 1%;
   margin-right: 1%;
 }
+
 p{
   margin: auto;
   float: left;
   padding: 1%;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 #chicken{
@@ -50,7 +57,6 @@ section{
 div{
   width: 30%;
 }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -61,7 +67,6 @@ div{
 }
 .div3{
   width: 98%;
-  margin: 1%;
 }
 }
 
