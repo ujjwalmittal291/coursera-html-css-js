@@ -1,0 +1,46 @@
+*{
+  color: black !important;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #999999;
+}
+
+.navbar li{
+    border: 1px solid black;
+}
+
+h1{
+    font-size: 1.75em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 90px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.navbar-nav {
+  background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+
+.con-col{
+    padding: 20px;
+}
+
+.col{
+    padding:20px;
+    margin-bottom: 20px;
+    background-color: #999999;
+    color: black;
+    line-height: 2em;
+  }
